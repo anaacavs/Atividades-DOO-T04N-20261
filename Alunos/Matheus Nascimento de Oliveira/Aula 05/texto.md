@@ -12,6 +12,8 @@ Comparamos como os dois paradigmas lidam com a tarefa de filtrar e somar apenas 
 
 Exemplo em Java (Imperativo)
 Em Java, utilizamos estruturas de repetição e condicionais para controlar manualmente:
+
+
 public class SomaPares {
     public static void main(String[] args) {
         int[] numeros = {1, 2, 3, 4, 5, 6};
@@ -31,6 +33,8 @@ Funcionamento: O código inicia uma variável que acumula valores, percorre a li
 
 Exemplo em Prolog (Declarativo)
 Em Prolog, definimos o que é um número par e como a soma deve se comportar através de regras lógicas.
+
+
 % Definição: um número é par se o resto da divisão por 2 for 0.
 par(N) :- 0 is N mod 2.
 
