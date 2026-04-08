@@ -39,7 +39,6 @@ public class Loja {
         System.out.println("Nome Fantasia: " + nomeFantasia + ", CNPJ: " + cpnj + ", Endereco: " + cidade + ", " + bairro + ", " + rua);
     }
 
-    // Métodos da calculadora baseados em Aula04
     public void calcularPrecoTotal(Scanner scanner) {
         System.out.print("Quantidade vendida: ");
         double quantidade = scanner.nextDouble();

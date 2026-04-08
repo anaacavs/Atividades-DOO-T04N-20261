@@ -4,7 +4,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Exemplo de criação de vendedores e clientes
         Vendedor[] vendedores = {
             new Vendedor("João", 30, "My Plant", "Cidade A", "Bairro A", "Rua A", 2000.0, new double[]{1800.0, 1900.0, 2000.0}),
             new Vendedor("Maria", 25, "My Plant", "Cidade A", "Bairro A", "Rua A", 2200.0, new double[]{2000.0, 2100.0, 2200.0})
@@ -61,7 +60,7 @@ public class Main {
     }
 
     private static void exibirMenu() {
-        System.out.println("\n== Sistema My Plant ==");
+        System.out.println("\n=== Sistema My Plant ===");
         System.out.println("[1] - Calcular Preço Total");
         System.out.println("[2] - Calcular Troco");
         System.out.println("[3] - Ver Registro de Vendas");
